@@ -1,0 +1,20 @@
+.page-content {
+    width: calc(100% - 270px);
+    margin-left: 270px;
+    transition: all 0.4s;
+}
+
+.border-detail {
+    
+    border: 2px solid #005375;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .page-content{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
